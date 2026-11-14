@@ -73,21 +73,44 @@ text { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, 'Helv
     <circle cx="0" cy="0" r="90" fill="none" stroke="#2d2c29" stroke-width="1.2"/>
     <circle cx="0" cy="0" r="60" fill="none" stroke="#2d2c29" stroke-width="1.2"/>
     <circle cx="0" cy="0" r="30" fill="none" stroke="#2d2c29" stroke-width="1.2"/>
-    <circle class="pulse-ring" cx="0" cy="0" r="24" fill="none" stroke="#ff5b14" stroke-width="2"/>
+
+    <!-- Expanding radar ripple waves -->
+    <circle cx="0" cy="0" r="14" fill="none" stroke="#ff5b14" stroke-width="1.5">
+      <animate attributeName="r" values="14;88" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.8;0" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="0" cy="0" r="14" fill="none" stroke="#ff5b14" stroke-width="1.5">
+      <animate attributeName="r" values="14;88" begin="1.5s" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.8;0" begin="1.5s" dur="3s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- Rotating radar sweep beam -->
+    <line x1="0" y1="0" x2="88" y2="0" stroke="#ff5b14" stroke-width="1.6" opacity="0.85">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="4.2s" repeatCount="indefinite"/>
+    </line>
+
     <circle cx="0" cy="0" r="14" fill="#ff5b14"/>
     <text x="0" y="4" font-size="8" fill="#121211" font-weight="800" text-anchor="middle" class="mono">SEC</text>
 
-    <!-- Nodes around -->
-    <circle cx="-55" cy="-35" r="4" fill="#ecebe5"/>
+    <!-- Nodes around with pulsing dots -->
+    <circle cx="-55" cy="-35" r="4" fill="#ecebe5">
+      <animate attributeName="r" values="3.5;5.5;3.5" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
     <text x="-65" y="-32" font-size="9" fill="#8d8b85" text-anchor="end" class="mono">FRA (12ms)</text>
 
-    <circle cx="65" cy="-25" r="4" fill="#ecebe5"/>
+    <circle cx="65" cy="-25" r="4" fill="#ecebe5">
+      <animate attributeName="r" values="3.5;5.5;3.5" begin="0.6s" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
     <text x="75" y="-22" font-size="9" fill="#8d8b85" class="mono">AMS (14ms)</text>
 
-    <circle cx="-40" cy="50" r="4" fill="#ecebe5"/>
+    <circle cx="-40" cy="50" r="4" fill="#ecebe5">
+      <animate attributeName="r" values="3.5;5.5;3.5" begin="1.2s" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
     <text x="-50" y="53" font-size="9" fill="#8d8b85" text-anchor="end" class="mono">HEL (8ms)</text>
 
-    <circle cx="50" cy="45" r="4" fill="#ecebe5"/>
+    <circle cx="50" cy="45" r="4" fill="#ecebe5">
+      <animate attributeName="r" values="3.5;5.5;3.5" begin="1.8s" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
     <text x="60" y="48" font-size="9" fill="#8d8b85" class="mono">STO (11ms)</text>
 
     <!-- Connecting rays -->
