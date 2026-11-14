@@ -2,7 +2,7 @@
 <title id="t">01 — Prime Ecosystem. Агентные инструменты для разработчиков: терминал, десктоп, роутинг, прокси.</title>
 
 <defs>
- <clipPath id="clip"><rect width="1100" height="590" rx="6"/></clipPath>
+ <clipPath id="clip"><rect width="100%" height="100%" rx="6"/></clipPath>
  <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
   <path d="M0 .5H2M.5 0V2" stroke="#ecebe5" stroke-opacity=".14"/>
  </pattern>
@@ -15,9 +15,9 @@ text { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, 'Helv
 .fbl { transform-box: fill-box; transform-origin: left center; }
 .fbb { transform-box: fill-box; transform-origin: center bottom; }
 
-@keyframes reveal { from { transform: translateY(105%); } to { transform: none; } }
-@keyframes rise { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
-@keyframes fade { from { opacity: 0; } to { opacity: 1; } }
+@keyframes reveal { from { transform: translateY(30%); } to { transform: none; } }
+@keyframes rise { from { transform: translateY(6px); } to { transform: none; } }
+@keyframes fade { from { opacity: 0.8; } to { opacity: 1; } }
 @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
 @keyframes pulse { 0%, 100% { opacity: 0.3; } 50% { opacity: 1; } }
 @keyframes spin { to { transform: rotate(360deg); } }
@@ -51,12 +51,9 @@ text { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, 'Helv
 <text x="1072.0" y="36.0" font-size="11" fill="#8d8b85" font-weight="600" text-anchor="end" letter-spacing="1.6" class="mono">PRIME ECOSYSTEM · 04 ПРОЕКТА</text>
 <rect x=".5" y=".5" width="1099" height="149" rx="6" fill="none" stroke="#2d2c29"/>
 
-<clipPath id="num"><rect x="20" y="58" width="150" height="86"/></clipPath>
-<g clip-path="url(#num)"><g class="reveal"><text x="24.0" y="130.0" font-size="92" fill="#ff5b14" font-weight="800" letter-spacing="-4">01</text></g></g>
-
-<clipPath id="ttl"><rect x="170" y="62" width="900" height="56"/></clipPath>
-<g clip-path="url(#ttl)"><g class="reveal" style="animation-delay:0.15s"><text x="176.0" y="106.0" font-size="46" fill="#ecebe5" font-weight="800" letter-spacing="-1.5">Prime Ecosystem</text></g></g>
-<g class="rise" style="animation-delay:0.50s"><text x="178.0" y="132.0" font-size="15" fill="#8d8b85">Агентные инструменты нового поколения: терминальный ИИ, десктопный воркспейс, роутинг и прокси.</text></g>
+<text x="24.0" y="130.0" font-size="92" fill="#ff5b14" font-weight="800" letter-spacing="-4">01</text>
+<text x="176.0" y="106.0" font-size="46" fill="#ecebe5" font-weight="800" letter-spacing="-1.5">Prime Ecosystem</text>
+<text x="178.0" y="132.0" font-size="15" fill="#8d8b85">Агентные инструменты нового поколения: терминальный ИИ, десктопный воркспейс, роутинг и прокси.</text>
 <path d="M168 70V130" stroke="#2d2c29"/>
 <g transform="translate(1056 104)"><g class="bob"><path d="M0 -14V12M-8 4L0 12L8 4" fill="none" stroke="#ecebe5" stroke-width="1.8"/></g></g>
 <text x="1036.0" y="109.0" font-size="11" fill="#8d8b85" font-weight="600" text-anchor="end" letter-spacing="1.6" class="mono">ПРОЕКТЫ</text>

@@ -22,9 +22,9 @@ text { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, 'Helv
 .fbl { transform-box: fill-box; transform-origin: left center; }
 .fbb { transform-box: fill-box; transform-origin: center bottom; }
 
-@keyframes reveal { from { transform: translateY(105%); } to { transform: none; } }
-@keyframes rise { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
-@keyframes fade { from { opacity: 0; } to { opacity: 1; } }
+@keyframes reveal { from { transform: translateY(30%); } to { transform: none; } }
+@keyframes rise { from { transform: translateY(6px); } to { transform: none; } }
+@keyframes fade { from { opacity: 0.8; } to { opacity: 1; } }
 @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
 @keyframes pulse { 0%, 100% { opacity: 0.3; } 50% { opacity: 1; } }
 @keyframes spin { to { transform: rotate(360deg); } }
@@ -53,7 +53,7 @@ text { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, 'Helv
 
 COMMON_DEFS = """
 <defs>
- <clipPath id="clip"><rect width="1100" height="590" rx="6"/></clipPath>
+ <clipPath id="clip"><rect width="100%" height="100%" rx="6"/></clipPath>
  <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
   <path d="M0 .5H2M.5 0V2" stroke="#ecebe5" stroke-opacity=".14"/>
  </pattern>
@@ -70,10 +70,10 @@ def save_svg(filename, content):
     print(f"Generated: {filename}")
 
 # ==============================================================================
-# 1. HERO BANNER (1100 x 590)
+# 1. HERO BANNER (1100 x 526)
 # ==============================================================================
 def make_hero():
-    svg = f"""<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="590" viewBox="0 0 1100 590" role="img" aria-labelledby="t">
+    svg = f"""<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="526" viewBox="0 0 1100 526" role="img" aria-labelledby="t">
 <title id="t">SpherePrime — организация и экосистема агентных инструментов, десктопных воркспейсов, AI и сетевых продуктов.</title>
 {COMMON_DEFS}
 <style>
@@ -89,24 +89,19 @@ def make_hero():
 }}
 .ticker {{ animation: ticker 14s cubic-bezier(.77,0,.18,1) infinite; }}
 </style>
-<rect width="1100" height="590" rx="6" fill="#121211"/>
-<rect width="1100" height="590" fill="url(#grid)" clip-path="url(#clip)"/>
-<path d="M12 22V12H22M12 568V578H22M1088 22V12H1078M1088 568V578H1078" fill="none" stroke="#57554f" stroke-width="1.2"/>
+<rect width="1100" height="526" rx="6" fill="#121211"/>
+<rect width="1100" height="526" fill="url(#grid)" clip-path="url(#clip)"/>
+<path d="M12 22V12H22M12 504V514H22M1088 22V12H1078M1088 504V514H1078" fill="none" stroke="#57554f" stroke-width="1.2"/>
 <path d="M28 50H1072" stroke="#2d2c29"/>
 <g style="--run:988px"><rect class="register" style="animation-delay:0.00s" x="28" y="49" width="56" height="2" fill="#ff5b14"/></g>
 
 <!-- Top bar labels -->
 <text x="28.0" y="36.0" font-size="11" fill="#8d8b85" font-weight="600" letter-spacing="1.6" class="mono">SPHEREPRIME / ECOSYSTEM</text>
 <text x="1072.0" y="36.0" font-size="11" fill="#8d8b85" font-weight="600" text-anchor="end" letter-spacing="1.6" class="mono">FOUNDERS: LILKALINOV &amp; DWERTYFA — REV. 11.2026</text>
-<rect x=".5" y=".5" width="1099" height="589" rx="6" fill="none" stroke="#2d2c29"/>
+<rect x=".5" y=".5" width="1099" height="525" rx="6" fill="none" stroke="#2d2c29"/>
 
 <!-- Giant Title -->
-<clipPath id="name-clip"><rect x="20" y="60" width="760" height="170"/></clipPath>
-<g clip-path="url(#name-clip)">
-  <g class="reveal" style="animation-delay:0.10s">
-    <text x="24" y="195" font-size="118" font-weight="800" letter-spacing="-4" fill="#ecebe5">SpherePrime<tspan fill="#ff5b14">.</tspan></text>
-  </g>
-</g>
+<text x="24" y="195" font-size="118" font-weight="800" letter-spacing="-4" fill="#ecebe5">SpherePrime<tspan fill="#ff5b14">.</tspan></text>
 
 <!-- Subtitle -->
 <g class="rise" style="animation-delay:0.50s">
@@ -148,8 +143,8 @@ def make_hero():
 
 <!-- Divider -->
 <rect class="fbl grow" style="animation-delay:0.50s" x="28" y="308" width="1044" height="1" fill="#8d8b85"/>
-<path d="M366 330V520" stroke="#2d2c29"/>
-<path d="M726 330V520" stroke="#2d2c29"/>
+<path d="M366 330V508" stroke="#2d2c29"/>
+<path d="M726 330V508" stroke="#2d2c29"/>
 
 <!-- Column 01: Focus / Mission -->
 <text x="28.0" y="344.0" font-size="11" fill="#8d8b85" font-weight="600" letter-spacing="1.6" class="mono">01 / МИССИЯ</text>
@@ -361,12 +356,9 @@ def make_section_prime():
 <text x="1072.0" y="36.0" font-size="11" fill="#8d8b85" font-weight="600" text-anchor="end" letter-spacing="1.6" class="mono">PRIME ECOSYSTEM · 04 ПРОЕКТА</text>
 <rect x=".5" y=".5" width="1099" height="149" rx="6" fill="none" stroke="#2d2c29"/>
 
-<clipPath id="num"><rect x="20" y="58" width="150" height="86"/></clipPath>
-<g clip-path="url(#num)"><g class="reveal"><text x="24.0" y="130.0" font-size="92" fill="#ff5b14" font-weight="800" letter-spacing="-4">01</text></g></g>
-
-<clipPath id="ttl"><rect x="170" y="62" width="900" height="56"/></clipPath>
-<g clip-path="url(#ttl)"><g class="reveal" style="animation-delay:0.15s"><text x="176.0" y="106.0" font-size="46" fill="#ecebe5" font-weight="800" letter-spacing="-1.5">Prime Ecosystem</text></g></g>
-<g class="rise" style="animation-delay:0.50s"><text x="178.0" y="132.0" font-size="15" fill="#8d8b85">Агентные инструменты нового поколения: терминальный ИИ, десктопный воркспейс, роутинг и прокси.</text></g>
+<text x="24.0" y="130.0" font-size="92" fill="#ff5b14" font-weight="800" letter-spacing="-4">01</text>
+<text x="176.0" y="106.0" font-size="46" fill="#ecebe5" font-weight="800" letter-spacing="-1.5">Prime Ecosystem</text>
+<text x="178.0" y="132.0" font-size="15" fill="#8d8b85">Агентные инструменты нового поколения: терминальный ИИ, десктопный воркспейс, роутинг и прокси.</text>
 <path d="M168 70V130" stroke="#2d2c29"/>
 <g transform="translate(1056 104)"><g class="bob"><path d="M0 -14V12M-8 4L0 12L8 4" fill="none" stroke="#ecebe5" stroke-width="1.8"/></g></g>
 <text x="1036.0" y="109.0" font-size="11" fill="#8d8b85" font-weight="600" text-anchor="end" letter-spacing="1.6" class="mono">ПРОЕКТЫ</text>
@@ -650,12 +642,9 @@ def make_section_boost():
 <text x="1072.0" y="36.0" font-size="11" fill="#8d8b85" font-weight="600" text-anchor="end" letter-spacing="1.6" class="mono">NETWORK &amp; SECURITY · 03 СИСТЕМЫ</text>
 <rect x=".5" y=".5" width="1099" height="149" rx="6" fill="none" stroke="#2d2c29"/>
 
-<clipPath id="num2"><rect x="20" y="58" width="150" height="86"/></clipPath>
-<g clip-path="url(#num2)"><g class="reveal"><text x="24.0" y="130.0" font-size="92" fill="#ff5b14" font-weight="800" letter-spacing="-4">02</text></g></g>
-
-<clipPath id="ttl2"><rect x="170" y="62" width="900" height="56"/></clipPath>
-<g clip-path="url(#ttl2)"><g class="reveal" style="animation-delay:0.15s"><text x="176.0" y="106.0" font-size="46" fill="#ecebe5" font-weight="800" letter-spacing="-1.5">PrimeBoost &amp; Network</text></g></g>
-<g class="rise" style="animation-delay:0.50s"><text x="178.0" y="132.0" font-size="15" fill="#8d8b85">Защищённая сетевая инфраструктура (RoxyBoost → PrimeBoost), прокси-серверы и плагины.</text></g>
+<text x="24.0" y="130.0" font-size="92" fill="#ff5b14" font-weight="800" letter-spacing="-4">02</text>
+<text x="176.0" y="106.0" font-size="46" fill="#ecebe5" font-weight="800" letter-spacing="-1.5">PrimeBoost &amp; Network</text>
+<text x="178.0" y="132.0" font-size="15" fill="#8d8b85">Защищённая сетевая инфраструктура (RoxyBoost → PrimeBoost), прокси-серверы и плагины.</text>
 <path d="M168 70V130" stroke="#2d2c29"/>
 <g transform="translate(1056 104)"><g class="bob"><path d="M0 -14V12M-8 4L0 12L8 4" fill="none" stroke="#ecebe5" stroke-width="1.8"/></g></g>
 <text x="1036.0" y="109.0" font-size="11" fill="#8d8b85" font-weight="600" text-anchor="end" letter-spacing="1.6" class="mono">СЕТЬ &amp; VPN</text>
@@ -848,12 +837,9 @@ def make_section_team():
 <text x="1072.0" y="36.0" font-size="11" fill="#8d8b85" font-weight="600" text-anchor="end" letter-spacing="1.6" class="mono">CO-FOUNDERS &amp; ARCHITECTS</text>
 <rect x=".5" y=".5" width="1099" height="149" rx="6" fill="none" stroke="#2d2c29"/>
 
-<clipPath id="num3"><rect x="20" y="58" width="150" height="86"/></clipPath>
-<g clip-path="url(#num3)"><g class="reveal"><text x="24.0" y="130.0" font-size="92" fill="#ff5b14" font-weight="800" letter-spacing="-4">03</text></g></g>
-
-<clipPath id="ttl3"><rect x="170" y="62" width="900" height="56"/></clipPath>
-<g clip-path="url(#ttl3)"><g class="reveal" style="animation-delay:0.15s"><text x="176.0" y="106.0" font-size="46" fill="#ecebe5" font-weight="800" letter-spacing="-1.5">Команда и Соавторы</text></g></g>
-<g class="rise" style="animation-delay:0.50s"><text x="178.0" y="132.0" font-size="15" fill="#8d8b85">Основатели SpherePrime: LilKALINOV и dwertyfa — от ядра до нативных интерфейсов.</text></g>
+<text x="24.0" y="130.0" font-size="92" fill="#ff5b14" font-weight="800" letter-spacing="-4">03</text>
+<text x="176.0" y="106.0" font-size="46" fill="#ecebe5" font-weight="800" letter-spacing="-1.5">Команда и Соавторы</text>
+<text x="178.0" y="132.0" font-size="15" fill="#8d8b85">Основатели SpherePrime: LilKALINOV и dwertyfa — от ядра до нативных интерфейсов.</text>
 <path d="M168 70V130" stroke="#2d2c29"/>
 <g transform="translate(1056 104)"><g class="bob"><path d="M0 -14V12M-8 4L0 12L8 4" fill="none" stroke="#ecebe5" stroke-width="1.8"/></g></g>
 <text x="1036.0" y="109.0" font-size="11" fill="#8d8b85" font-weight="600" text-anchor="end" letter-spacing="1.6" class="mono">АВТОРЫ</text>
