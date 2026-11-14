@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="540" height="380" viewBox="0 0 540 380" role="img" aria-labelledby="t">
+<title id="t">PrimeProxy — локальный MTProto-прокси для Telegram с WebSocket-транспортом. Rust.</title>
+
+<defs>
+ <clipPath id="clip"><rect width="1100" height="590" rx="6"/></clipPath>
+ <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+  <path d="M0 .5H2M.5 0V2" stroke="#ecebe5" stroke-opacity=".14"/>
+ </pattern>
+</defs>
+
+<style>
+text { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, 'Helvetica Neue', Arial, sans-serif; }
+.mono { font-family: 'Cascadia Mono', 'JetBrains Mono', Consolas, 'SF Mono', Menlo, monospace; }
+.fb { transform-box: fill-box; transform-origin: center; }
+.fbl { transform-box: fill-box; transform-origin: left center; }
+.fbb { transform-box: fill-box; transform-origin: center bottom; }
+
+@keyframes reveal { from { transform: translateY(105%); } to { transform: none; } }
+@keyframes rise { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+@keyframes fade { from { opacity: 0; } to { opacity: 1; } }
+@keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+@keyframes pulse { 0%, 100% { opacity: 0.3; } 50% { opacity: 1; } }
+@keyframes spin { to { transform: rotate(360deg); } }
+@keyframes ripple { 0% { transform: scale(0.7); opacity: 0; } 20% { opacity: 0.8; } 100% { transform: scale(2.2); opacity: 0; } }
+@keyframes register { 0% { transform: translateX(0); } 100% { transform: translateX(var(--run)); } }
+@keyframes nudge { 0%, 70%, 100% { transform: translate(0, 0); } 80% { transform: translate(4px, -4px); } }
+@keyframes bob { 0%, 100% { transform: translateY(-3px); } 50% { transform: translateY(4px); } }
+@keyframes scan { 0% { transform: translateY(0); opacity: 0; } 8% { opacity: 1; } 92% { opacity: 1; } 100% { transform: translateY(220px); opacity: 0; } }
+@keyframes grow { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+
+.reveal { animation: reveal 1.1s cubic-bezier(.77,0,.18,1) both; }
+.rise { animation: rise .9s cubic-bezier(.19,1,.22,1) both; }
+.fade { animation: fade 1.2s ease both; }
+.blink { animation: blink 1.1s steps(1,end) infinite; }
+.pulse { animation: pulse 2.6s ease-in-out infinite; }
+.spin { animation: spin 30s linear infinite; }
+.ripple { animation: ripple 3.2s cubic-bezier(.2,.6,.3,1) infinite; }
+.register { animation: register 9s cubic-bezier(.77,0,.18,1) infinite alternate; }
+.nudge { animation: nudge 3.6s ease-in-out infinite; }
+.bob { animation: bob 2.2s ease-in-out infinite; }
+.scan { animation: scan 5.2s cubic-bezier(.45,0,.55,1) infinite; }
+.grow { animation: grow 1.4s cubic-bezier(.77,0,.18,1) both; }
+
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+</style>
+<rect width="540" height="380" rx="6" fill="#121211"/>
+<path d="M12 22V12H22M12 358V368H22M528 22V12H518M528 358V368H518" fill="none" stroke="#57554f" stroke-width="1.2"/>
+<path d="M28 50H512" stroke="#2d2c29"/>
+<g style="--run:428px"><rect class="register" style="animation-delay:-5.60s" x="28" y="49" width="56" height="2" fill="#ff5b14"/></g>
+<text x="28.0" y="36.0" font-size="11" fill="#8d8b85" font-weight="600" letter-spacing="1.6" class="mono">04 — PROXY · RUST</text>
+<text x="488.0" y="36.0" font-size="11" fill="#ff5b14" font-weight="600" text-anchor="end" letter-spacing="1.2" class="mono">MTPROTO</text>
+<rect x=".5" y=".5" width="539" height="379" rx="6" fill="none" stroke="#2d2c29"/>
+
+<g transform="translate(502 32)"><path d="M-7 7L7 -7M-2.8 -7H7V2.8" fill="none" stroke="#ff5b14" stroke-width="1.6" stroke-linecap="square"/></g>
+
+<!-- Content -->
+<clipPath id="prt"><rect x="24" y="68" width="480" height="52"/></clipPath>
+<g clip-path="url(#prt)"><g class="reveal"><text x="28" y="108" font-size="44" fill="#ecebe5" font-weight="800" letter-spacing="-1.2">PrimeProxy</text></g></g>
+
+<g class="rise" style="animation-delay:0.30s">
+  <text x="28.0" y="142.0" font-size="15.5" fill="#8d8b85">Локальный высокопроизводительный MTProto-прокси</text>
+  <text x="28.0" y="166.0" font-size="15.5" fill="#8d8b85">для Telegram с быстрым WebSocket-транспортом на Rust.</text>
+</g>
+
+<!-- Graphic box -->
+<rect x="28" y="186" width="484" height="124" fill="#0e0e0d" stroke="#2d2c29"/>
+<rect x="28" y="186" width="484" height="124" fill="url(#grid)"/>
+<text x="44.0" y="212.0" font-size="11" fill="#ff5b14" font-weight="700" class="mono">MTPROTO + WEBSOCKET TUNNEL</text>
+<text x="44.0" y="238.0" font-size="12.5" fill="#ecebe5" class="mono">Zero-copy I/O · Tokio Async Runtime · Low-latency</text>
+<text x="44.0" y="262.0" font-size="12" fill="#8d8b85" class="mono">Прямой обход блокировок и стабильное соединение в TG</text>
+<text x="44.0" y="286.0" font-size="11" fill="#57554f" class="mono">Автоконфигурация · Встроенный DNS криптографический слой</text>
+
+<g class="rise" style="animation-delay:0.70s">
+  <text x="28.0" y="344.0" font-size="12" fill="#57554f" class="mono">REPO: SpherePrime/PrimeProxy · Rust Core</text>
+</g>
+</svg>

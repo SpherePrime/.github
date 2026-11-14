@@ -1,0 +1,165 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="590" viewBox="0 0 1100 590" role="img" aria-labelledby="t">
+<title id="t">SpherePrime — организация и экосистема агентных инструментов, десктопных воркспейсов, AI и сетевых продуктов.</title>
+
+<defs>
+ <clipPath id="clip"><rect width="1100" height="590" rx="6"/></clipPath>
+ <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+  <path d="M0 .5H2M.5 0V2" stroke="#ecebe5" stroke-opacity=".14"/>
+ </pattern>
+</defs>
+
+<style>
+
+text { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, 'Helvetica Neue', Arial, sans-serif; }
+.mono { font-family: 'Cascadia Mono', 'JetBrains Mono', Consolas, 'SF Mono', Menlo, monospace; }
+.fb { transform-box: fill-box; transform-origin: center; }
+.fbl { transform-box: fill-box; transform-origin: left center; }
+.fbb { transform-box: fill-box; transform-origin: center bottom; }
+
+@keyframes reveal { from { transform: translateY(105%); } to { transform: none; } }
+@keyframes rise { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+@keyframes fade { from { opacity: 0; } to { opacity: 1; } }
+@keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+@keyframes pulse { 0%, 100% { opacity: 0.3; } 50% { opacity: 1; } }
+@keyframes spin { to { transform: rotate(360deg); } }
+@keyframes ripple { 0% { transform: scale(0.7); opacity: 0; } 20% { opacity: 0.8; } 100% { transform: scale(2.2); opacity: 0; } }
+@keyframes register { 0% { transform: translateX(0); } 100% { transform: translateX(var(--run)); } }
+@keyframes nudge { 0%, 70%, 100% { transform: translate(0, 0); } 80% { transform: translate(4px, -4px); } }
+@keyframes bob { 0%, 100% { transform: translateY(-3px); } 50% { transform: translateY(4px); } }
+@keyframes scan { 0% { transform: translateY(0); opacity: 0; } 8% { opacity: 1; } 92% { opacity: 1; } 100% { transform: translateY(220px); opacity: 0; } }
+@keyframes grow { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+
+.reveal { animation: reveal 1.1s cubic-bezier(.77,0,.18,1) both; }
+.rise { animation: rise .9s cubic-bezier(.19,1,.22,1) both; }
+.fade { animation: fade 1.2s ease both; }
+.blink { animation: blink 1.1s steps(1,end) infinite; }
+.pulse { animation: pulse 2.6s ease-in-out infinite; }
+.spin { animation: spin 30s linear infinite; }
+.ripple { animation: ripple 3.2s cubic-bezier(.2,.6,.3,1) infinite; }
+.register { animation: register 9s cubic-bezier(.77,0,.18,1) infinite alternate; }
+.nudge { animation: nudge 3.6s ease-in-out infinite; }
+.bob { animation: bob 2.2s ease-in-out infinite; }
+.scan { animation: scan 5.2s cubic-bezier(.45,0,.55,1) infinite; }
+.grow { animation: grow 1.4s cubic-bezier(.77,0,.18,1) both; }
+
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+
+@keyframes ticker {
+  0.00%, 14.28% { transform: translateY(0px); }
+  16.66%, 30.95% { transform: translateY(-40px); }
+  33.33%, 47.61% { transform: translateY(-80px); }
+  50.00%, 64.28% { transform: translateY(-120px); }
+  66.66%, 80.95% { transform: translateY(-160px); }
+  83.33%, 97.61% { transform: translateY(-200px); }
+  100% { transform: translateY(-240px); }
+}
+.ticker { animation: ticker 14s cubic-bezier(.77,0,.18,1) infinite; }
+</style>
+<rect width="1100" height="590" rx="6" fill="#121211"/>
+<rect width="1100" height="590" fill="url(#grid)" clip-path="url(#clip)"/>
+<path d="M12 22V12H22M12 568V578H22M1088 22V12H1078M1088 568V578H1078" fill="none" stroke="#57554f" stroke-width="1.2"/>
+<path d="M28 50H1072" stroke="#2d2c29"/>
+<g style="--run:988px"><rect class="register" style="animation-delay:0.00s" x="28" y="49" width="56" height="2" fill="#ff5b14"/></g>
+
+<!-- Top bar labels -->
+<text x="28.0" y="36.0" font-size="11" fill="#8d8b85" font-weight="600" letter-spacing="1.6" class="mono">SPHEREPRIME / ECOSYSTEM</text>
+<text x="1072.0" y="36.0" font-size="11" fill="#8d8b85" font-weight="600" text-anchor="end" letter-spacing="1.6" class="mono">FOUNDERS: LILKALINOV &amp; DWERTYFA — REV. 11.2026</text>
+<rect x=".5" y=".5" width="1099" height="589" rx="6" fill="none" stroke="#2d2c29"/>
+
+<!-- Giant Title -->
+<clipPath id="name-clip"><rect x="20" y="60" width="760" height="170"/></clipPath>
+<g clip-path="url(#name-clip)">
+  <g class="reveal" style="animation-delay:0.10s">
+    <text x="24" y="195" font-size="118" font-weight="800" letter-spacing="-4" fill="#ecebe5">SpherePrime<tspan fill="#ff5b14">.</tspan></text>
+  </g>
+</g>
+
+<!-- Subtitle -->
+<g class="rise" style="animation-delay:0.50s">
+  <text x="28.0" y="246.0" font-size="18.5" fill="#8d8b85">Агентные инструменты, десктопные воркспейсы, сетевые протоколы и AI-решения.</text>
+  <text x="28.0" y="274.0" font-size="15" fill="#57554f" class="mono">Prime CLI · Prime Desktop · PrimeBoost · PrimeProxy · PrimeAi · Astra Plugins</text>
+</g>
+
+<!-- Telemetry Plate on Right -->
+<g class="fade" style="animation-delay:0.35s">
+  <rect x="760" y="74" width="312" height="212" fill="#0e0e0d" stroke="#2d2c29"/>
+  <rect x="760" y="74" width="312" height="212" fill="url(#grid)"/>
+  <path d="M760 106H1072" stroke="#2d2c29"/>
+  <text x="776.0" y="95.0" font-size="10.5" fill="#8d8b85" font-weight="600" letter-spacing="1.6" class="mono">SYS.STATUS / NODES</text>
+  <circle cx="1046" cy="91" r="4" fill="#ff5b14" class="pulse"/>
+  <text x="1034.0" y="95.0" font-size="10" fill="#ff5b14" font-weight="700" text-anchor="end" class="mono">ONLINE</text>
+
+  <!-- Waveform monitor -->
+  <path d="M776 150H1056" stroke="#2d2c29" stroke-dasharray="2 3"/>
+  <path d="M776 150 L800 150 L812 135 L824 165 L836 142 L848 150 L870 150 L882 120 L894 180 L906 130 L918 160 L930 150 L960 150 L972 138 L984 158 L996 150 L1056 150"
+        fill="none" stroke="#ff5b14" stroke-width="1.8" stroke-linejoin="round">
+    <animate attributeName="d" dur="3.6s" repeatCount="indefinite"
+             values="M776 150 L800 150 L812 135 L824 165 L836 142 L848 150 L870 150 L882 120 L894 180 L906 130 L918 160 L930 150 L960 150 L972 138 L984 158 L996 150 L1056 150;
+                     M776 150 L790 150 L802 125 L814 175 L826 138 L838 150 L860 150 L872 140 L884 160 L900 150 L920 120 L932 170 L944 140 L956 150 L980 150 L992 135 L1056 150;
+                     M776 150 L800 150 L812 135 L824 165 L836 142 L848 150 L870 150 L882 120 L894 180 L906 130 L918 160 L930 150 L960 150 L972 138 L984 158 L996 150 L1056 150"/>
+  </path>
+
+  <!-- Node telemetry metrics -->
+  <text x="776.0" y="200.0" font-size="11" fill="#57554f" class="mono">CORE</text>
+  <text x="820.0" y="200.0" font-size="11.5" fill="#ecebe5" font-weight="600" class="mono">Prime V2 / Go &amp; Rust</text>
+
+  <text x="776.0" y="224.0" font-size="11" fill="#57554f" class="mono">AUTH</text>
+  <text x="820.0" y="224.0" font-size="11.5" fill="#ecebe5" font-weight="600" class="mono">LilKALINOV &amp; dwertyfa</text>
+
+  <text x="776.0" y="248.0" font-size="11" fill="#57554f" class="mono">NET</text>
+  <text x="820.0" y="248.0" font-size="11.5" fill="#ff5b14" font-weight="600" class="mono">PrimeBoost (ex-RoxyBoost)</text>
+
+  <text x="776.0" y="272.0" font-size="10" fill="#8d8b85" class="mono">REV: 2026.11 · LATENCY: 0.4ms</text>
+</g>
+
+<!-- Divider -->
+<rect class="fbl grow" style="animation-delay:0.50s" x="28" y="308" width="1044" height="1" fill="#8d8b85"/>
+<path d="M366 330V520" stroke="#2d2c29"/>
+<path d="M726 330V520" stroke="#2d2c29"/>
+
+<!-- Column 01: Focus / Mission -->
+<text x="28.0" y="344.0" font-size="11" fill="#8d8b85" font-weight="600" letter-spacing="1.6" class="mono">01 / МИССИЯ</text>
+<text x="28.0" y="366.0" font-size="15" fill="#8d8b85">Разрабатываем</text>
+<clipPath id="ticker-clip"><rect x="26" y="368" width="330" height="42"/></clipPath>
+<g clip-path="url(#ticker-clip)">
+  <g class="ticker">
+    <text x="28.0" y="398.0" font-size="27" fill="#ecebe5" font-weight="700" letter-spacing="-0.5">ИИ-агентов для кода</text>
+    <text x="28.0" y="438.0" font-size="27" fill="#ecebe5" font-weight="700" letter-spacing="-0.5">десктоп: Tauri &amp; Electron</text>
+    <text x="28.0" y="478.0" font-size="27" fill="#ecebe5" font-weight="700" letter-spacing="-0.5">PrimeBoost VPN сеть</text>
+    <text x="28.0" y="518.0" font-size="27" fill="#ecebe5" font-weight="700" letter-spacing="-0.5">MTProto WebSocket прокси</text>
+    <text x="28.0" y="558.0" font-size="27" fill="#ecebe5" font-weight="700" letter-spacing="-0.5">AI-роутер для Astra</text>
+    <text x="28.0" y="598.0" font-size="27" fill="#ecebe5" font-weight="700" letter-spacing="-0.5">открытые инструменты</text>
+    <text x="28.0" y="638.0" font-size="27" fill="#ecebe5" font-weight="700" letter-spacing="-0.5">ИИ-агентов для кода</text>
+  </g>
+</g>
+<text x="28.0" y="438.0" font-size="14.5" fill="#8d8b85">Нативные кроссплатформенные</text>
+<text x="28.0" y="460.0" font-size="14.5" fill="#8d8b85">решения и независимый софт</text>
+<text x="28.0" y="482.0" font-size="14.5" fill="#8d8b85">с бескомпромиссным качеством.</text>
+
+<!-- Column 02: Stack / Systems -->
+<text x="392.0" y="344.0" font-size="11" fill="#8d8b85" font-weight="600" letter-spacing="1.6" class="mono">02 / СТЕК И ТЕХНОЛОГИИ</text>
+<g class="rise" style="animation-delay:0.75s">
+  <text x="406.0" y="376.0" font-size="10" fill="#57554f" class="mono">01</text><text x="428.0" y="376.0" font-size="13" fill="#ecebe5" class="mono">Rust (Core / Proxy / VPN)</text>
+  <text x="406.0" y="401.0" font-size="10" fill="#57554f" class="mono">02</text><text x="428.0" y="401.0" font-size="13" fill="#ecebe5" class="mono">Go (Prime CLI Agent)</text>
+  <text x="406.0" y="426.0" font-size="10" fill="#57554f" class="mono">03</text><text x="428.0" y="426.0" font-size="13" fill="#ecebe5" class="mono">Tauri v2 &amp; Electron (Desktop)</text>
+  <text x="406.0" y="451.0" font-size="10" fill="#57554f" class="mono">04</text><text x="428.0" y="451.0" font-size="13" fill="#ecebe5" class="mono">TypeScript &amp; React (Web UI)</text>
+  <text x="406.0" y="476.0" font-size="10" fill="#57554f" class="mono">05</text><text x="428.0" y="476.0" font-size="13" fill="#ecebe5" class="mono">Python (AI / Automation)</text>
+  <text x="406.0" y="501.0" font-size="10" fill="#57554f" class="mono">06</text><text x="428.0" y="501.0" font-size="13" fill="#ecebe5" class="mono">MCP &amp; LSP Protocols</text>
+</g>
+
+<!-- Column 03: Authors & Governance -->
+<text x="752.0" y="344.0" font-size="11" fill="#8d8b85" font-weight="600" letter-spacing="1.6" class="mono">03 / ОСНОВАТЕЛИ</text>
+<text x="1072.0" y="344.0" font-size="11" fill="#ff5b14" font-weight="600" text-anchor="end" letter-spacing="1.6" class="mono">CO-FOUNDERS</text>
+
+<g class="rise" style="animation-delay:0.85s">
+  <rect x="752" y="366" width="320" height="66" fill="#0e0e0d" stroke="#2d2c29"/>
+  <text x="770.0" y="392.0" font-size="16" fill="#ecebe5" font-weight="700">LilKALINOV</text>
+  <text x="1054.0" y="392.0" font-size="11" fill="#ff5b14" text-anchor="end" font-weight="600" class="mono">LEAD QA / CO-FOUNDER</text>
+  <text x="770.0" y="414.0" font-size="12" fill="#8d8b85">QA Astra, системный софт, Rust, Tauri, ИИ-агенты</text>
+
+  <rect x="752" y="442" width="320" height="66" fill="#0e0e0d" stroke="#2d2c29"/>
+  <text x="770.0" y="468.0" font-size="16" fill="#ecebe5" font-weight="700">dwertyfa</text>
+  <text x="1054.0" y="468.0" font-size="11" fill="#ff5b14" text-anchor="end" font-weight="600" class="mono">FULL-STACK / CO-FOUNDER</text>
+  <text x="770.0" y="490.0" font-size="12" fill="#8d8b85">Веб, PrimeBoost VPN, Three.js, Telegram, Astra плагины</text>
+</g>
+</svg>
