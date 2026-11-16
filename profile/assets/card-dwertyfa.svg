@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="540" height="400" viewBox="0 0 540 400" role="img" aria-labelledby="t">
-<title id="t">dwertyfa — Co-founder SpherePrime, Full-stack инженер. Профиль и проекты.</title>
+<title id="t">dwertyfa — Главный разработчик SpherePrime, Full-Stack.</title>
 
 <defs>
  <clipPath id="clip"><rect width="100%" height="100%" rx="6"/></clipPath>
@@ -47,7 +47,7 @@ text { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, 'Helv
 <path d="M12 22V12H22M12 378V388H22M528 22V12H518M528 378V388H518" fill="none" stroke="#57554f" stroke-width="1.2"/>
 <path d="M28 50H512" stroke="#2d2c29"/>
 <g style="--run:428px"><rect class="register" style="animation-delay:-4.00s" x="28" y="49" width="56" height="2" fill="#ff5b14"/></g>
-<text x="28.0" y="36.0" font-size="11" fill="#8d8b85" font-weight="600" letter-spacing="1.2" class="mono">02 — CO-FOUNDER · FULL-STACK</text>
+<text x="28.0" y="36.0" font-size="11" fill="#8d8b85" font-weight="600" letter-spacing="1.2" class="mono">02 — ГЛАВНЫЙ РАЗРАБОТЧИК · FULL-STACK</text>
 <text x="488.0" y="36.0" font-size="11" fill="#ff5b14" font-weight="600" text-anchor="end" letter-spacing="1.2" class="mono">@DWERTYFA288</text>
 <rect x=".5" y=".5" width="539" height="399" rx="6" fill="none" stroke="#2d2c29"/>
 
@@ -65,22 +65,22 @@ text { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, 'Helv
 
 <!-- Name & Role -->
 <text x="28" y="106" font-size="36" fill="#ecebe5" font-weight="800" letter-spacing="-1.2">dwertyfa<tspan fill="#ff5b14">.</tspan></text>
-<text x="28.0" y="132.0" font-size="12.5" fill="#ecebe5" font-weight="600">Со-основатель SpherePrime · Full-stack Инженер</text>
-<text x="28.0" y="156.0" font-size="12" fill="#8d8b85">Веб-платформы, интерактивный 3D-дизайн,</text>
-<text x="28.0" y="176.0" font-size="12" fill="#8d8b85">PrimeBoost VPN, Telegram Mini Apps и Astra.</text>
+<text x="28.0" y="132.0" font-size="12.5" fill="#ecebe5" font-weight="600">Главный разработчик SpherePrime · Full-Stack</text>
+<text x="28.0" y="156.0" font-size="12" fill="#8d8b85">Со-основатель и ключевой инженер экосистемы.</text>
+<text x="28.0" y="176.0" font-size="12" fill="#8d8b85">Full-Stack разработка от ядра до интерфейсов.</text>
 <text x="28.0" y="196.0" font-size="11" fill="#ff5b14" font-weight="600" class="mono">STATUS: ACTIVE FULL-STACK</text>
 
 <!-- Focus tags -->
 <rect x="28" y="222" width="484" height="106" fill="#0e0e0d" stroke="#2d2c29"/>
 <rect x="28" y="222" width="484" height="106" fill="url(#grid)"/>
 
-<text x="44.0" y="246.0" font-size="11" fill="#ff5b14" font-weight="700" class="mono">КЛЮЧЕВЫЕ ПРОЕКТЫ И ПРОДУКТЫ</text>
-<text x="44.0" y="268.0" font-size="12.5" fill="#ecebe5" class="mono">PrimeBoost (RoxyBoost) · dwertyfa-astra-tg</text>
-<text x="44.0" y="290.0" font-size="12.5" fill="#ecebe5" class="mono">astra-interject · Мой Дизайнер · 3D Портфолио</text>
-<text x="44.0" y="312.0" font-size="11" fill="#57554f" class="mono">Стек: Rust · Next.js · React · Three.js · Python · TS</text>
+<text x="44.0" y="246.0" font-size="11" fill="#ff5b14" font-weight="700" class="mono">РОЛЬ И СПЕЦИАЛИЗАЦИЯ</text>
+<text x="44.0" y="268.0" font-size="12.5" fill="#ecebe5" class="mono">Главный разработчик · Full-Stack</text>
+<text x="44.0" y="290.0" font-size="12.5" fill="#ecebe5" class="mono">Проектирование · Бэкенд · Десктоп · Веб</text>
+<text x="44.0" y="312.0" font-size="11" fill="#57554f" class="mono">Стек: Rust · Python · Go · TypeScript · React · Tauri</text>
 
 <!-- Button -->
-<rect x="28" y="342" width="200" height="38" fill="none" stroke="#ecebe5"/>
-<text x="46.0" y="366.0" font-size="11.5" fill="#ecebe5" font-weight="600" letter-spacing="1.4" class="mono">ПРОФИЛЬ АВТОРА</text>
-<g transform="translate(208 361)"><path d="M-5 5L5 -5M-2 -5H5V2" fill="none" stroke="#ff5b14" stroke-width="1.6" stroke-linecap="square"/></g>
+<rect x="28" y="342" width="210" height="38" fill="none" stroke="#ecebe5"/>
+<text x="46.0" y="366.0" font-size="11.5" fill="#ecebe5" font-weight="600" letter-spacing="1.4" class="mono">ОТКРЫТЬ ПРОФИЛЬ</text>
+<g transform="translate(218 361)"><path d="M-5 5L5 -5M-2 -5H5V2" fill="none" stroke="#ff5b14" stroke-width="1.6" stroke-linecap="square"/></g>
 </svg>

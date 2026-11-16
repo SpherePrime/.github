@@ -48,13 +48,13 @@ text { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, 'Helv
 <path d="M28 50H1072" stroke="#2d2c29"/>
 <g style="--run:988px"><rect class="register" style="animation-delay:-1.20s" x="28" y="49" width="56" height="2" fill="#ff5b14"/></g>
 <text x="28.0" y="36.0" font-size="11" fill="#8d8b85" font-weight="600" letter-spacing="1.6" class="mono">РАЗДЕЛ 03</text>
-<text x="1072.0" y="36.0" font-size="11" fill="#8d8b85" font-weight="600" text-anchor="end" letter-spacing="1.6" class="mono">CO-FOUNDERS &amp; ARCHITECTS</text>
+<text x="1072.0" y="36.0" font-size="11" fill="#8d8b85" font-weight="600" text-anchor="end" letter-spacing="1.6" class="mono">LEAD DEVELOPERS · FULL-STACK</text>
 <rect x=".5" y=".5" width="1099" height="149" rx="6" fill="none" stroke="#2d2c29"/>
 
 <text x="24.0" y="130.0" font-size="92" fill="#ff5b14" font-weight="800" letter-spacing="-4">03</text>
-<text x="176.0" y="106.0" font-size="46" fill="#ecebe5" font-weight="800" letter-spacing="-1.5">Команда и Соавторы</text>
-<text x="178.0" y="132.0" font-size="15" fill="#8d8b85">Основатели SpherePrime: LilKALINOV и dwertyfa — от ядра до нативных интерфейсов.</text>
+<text x="176.0" y="106.0" font-size="46" fill="#ecebe5" font-weight="800" letter-spacing="-1.5">Главные разработчики</text>
+<text x="178.0" y="132.0" font-size="15" fill="#8d8b85">Основатели SpherePrime: LilKALINOV и dwertyfa — Full-Stack разработка экосистемы.</text>
 <path d="M168 70V130" stroke="#2d2c29"/>
 <g transform="translate(1056 104)"><g class="bob"><path d="M0 -14V12M-8 4L0 12L8 4" fill="none" stroke="#ecebe5" stroke-width="1.8"/></g></g>
-<text x="1036.0" y="109.0" font-size="11" fill="#8d8b85" font-weight="600" text-anchor="end" letter-spacing="1.6" class="mono">АВТОРЫ</text>
+<text x="1036.0" y="109.0" font-size="11" fill="#8d8b85" font-weight="600" text-anchor="end" letter-spacing="1.6" class="mono">РАЗРАБОТЧИКИ</text>
 </svg>

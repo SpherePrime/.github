@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/hero-sphereprime.svg?v=2" width="100%" alt="SpherePrime — организация и экосистема агентных инструментов, десктопных воркспейсов, AI и сетевых продуктов. Основатели: LilKALINOV и dwertyfa." />
+  <img src="./assets/hero-sphereprime.svg?v=3" width="100%" alt="SpherePrime — организация и экосистема агентных инструментов, десктопных воркспейсов, AI и сетевых продуктов. Основатели: LilKALINOV и dwertyfa." />
 </p>
 
 <p align="center">
@@ -43,12 +43,12 @@
 </p>
 
 <p align="center">
-  <img src="./assets/section-team.svg?v=2" width="100%" alt="03 — Team &amp; Co-founders. Создатели и ключевые разработчики экосистемы: LilKALINOV и dwertyfa." />
+  <img src="./assets/section-team.svg?v=3" width="100%" alt="03 — Главные разработчики. Основатели SpherePrime: LilKALINOV и dwertyfa — Full-Stack разработка экосистемы." />
 </p>
 
 <p align="center">
-  <a href="https://github.com/LilKALINOV"><img src="./assets/card-lilkalinov.svg?v=2" width="49%" alt="LilKALINOV — Co-founder SpherePrime, Lead QA Astra. Профиль и проекты." /></a>
-  <a href="https://github.com/dwertyfa288"><img src="./assets/card-dwertyfa.svg?v=2" width="49%" alt="dwertyfa — Co-founder SpherePrime, Full-stack инженер. Профиль и проекты." /></a>
+  <a href="https://github.com/LilKALINOV"><img src="./assets/card-lilkalinov.svg?v=3" width="49%" alt="LilKALINOV — Главный разработчик SpherePrime, Full-Stack. Профиль." /></a>
+  <a href="https://github.com/dwertyfa288"><img src="./assets/card-dwertyfa.svg?v=3" width="49%" alt="dwertyfa — Главный разработчик SpherePrime, Full-Stack. Профиль." /></a>
 </p>
 
 <p align="center">

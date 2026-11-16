@@ -187,8 +187,8 @@ def make_hero():
   <image x="760" y="375" width="48" height="48" clip-path="url(#h-lk)" href="{AVATAR_LK}" preserveAspectRatio="xMidYMid slice"/>
   <rect x="760" y="375" width="48" height="48" rx="6" fill="none" stroke="#2d2c29"/>
   <text x="818.0" y="394.0" font-size="16" fill="#ecebe5" font-weight="700">LilKALINOV</text>
-  <text x="1054.0" y="394.0" font-size="10.5" fill="#ff5b14" text-anchor="end" font-weight="600" class="mono">LEAD QA</text>
-  <text x="818.0" y="414.0" font-size="11.5" fill="#8d8b85">QA Astra, системный софт, Rust, Tauri, ИИ</text>
+  <text x="1054.0" y="394.0" font-size="10.5" fill="#ff5b14" text-anchor="end" font-weight="600" class="mono">FULL-STACK</text>
+  <text x="818.0" y="414.0" font-size="11.5" fill="#8d8b85">Главный разработчик · Full-Stack</text>
 
   <!-- dwertyfa with Avatar -->
   <rect x="752" y="442" width="320" height="66" fill="#0e0e0d" stroke="#2d2c29"/>
@@ -197,7 +197,7 @@ def make_hero():
   <rect x="760" y="451" width="48" height="48" rx="6" fill="none" stroke="#2d2c29"/>
   <text x="818.0" y="470.0" font-size="16" fill="#ecebe5" font-weight="700">dwertyfa</text>
   <text x="1054.0" y="470.0" font-size="10.5" fill="#ff5b14" text-anchor="end" font-weight="600" class="mono">FULL-STACK</text>
-  <text x="818.0" y="490.0" font-size="11.5" fill="#8d8b85">Веб, PrimeBoost VPN, Three.js, Telegram, Astra</text>
+  <text x="818.0" y="490.0" font-size="11.5" fill="#8d8b85">Главный разработчик · Full-Stack</text>
 </g>
 </svg>"""
     save_svg("hero-sphereprime.svg", svg)
@@ -865,15 +865,15 @@ def make_section_team():
 <path d="M28 50H1072" stroke="#2d2c29"/>
 <g style="--run:988px"><rect class="register" style="animation-delay:-1.20s" x="28" y="49" width="56" height="2" fill="#ff5b14"/></g>
 <text x="28.0" y="36.0" font-size="11" fill="#8d8b85" font-weight="600" letter-spacing="1.6" class="mono">РАЗДЕЛ 03</text>
-<text x="1072.0" y="36.0" font-size="11" fill="#8d8b85" font-weight="600" text-anchor="end" letter-spacing="1.6" class="mono">CO-FOUNDERS &amp; ARCHITECTS</text>
+<text x="1072.0" y="36.0" font-size="11" fill="#8d8b85" font-weight="600" text-anchor="end" letter-spacing="1.6" class="mono">LEAD DEVELOPERS · FULL-STACK</text>
 <rect x=".5" y=".5" width="1099" height="149" rx="6" fill="none" stroke="#2d2c29"/>
 
 <text x="24.0" y="130.0" font-size="92" fill="#ff5b14" font-weight="800" letter-spacing="-4">03</text>
-<text x="176.0" y="106.0" font-size="46" fill="#ecebe5" font-weight="800" letter-spacing="-1.5">Команда и Соавторы</text>
-<text x="178.0" y="132.0" font-size="15" fill="#8d8b85">Основатели SpherePrime: LilKALINOV и dwertyfa — от ядра до нативных интерфейсов.</text>
+<text x="176.0" y="106.0" font-size="46" fill="#ecebe5" font-weight="800" letter-spacing="-1.5">Главные разработчики</text>
+<text x="178.0" y="132.0" font-size="15" fill="#8d8b85">Основатели SpherePrime: LilKALINOV и dwertyfa — Full-Stack разработка экосистемы.</text>
 <path d="M168 70V130" stroke="#2d2c29"/>
 <g transform="translate(1056 104)"><g class="bob"><path d="M0 -14V12M-8 4L0 12L8 4" fill="none" stroke="#ecebe5" stroke-width="1.8"/></g></g>
-<text x="1036.0" y="109.0" font-size="11" fill="#8d8b85" font-weight="600" text-anchor="end" letter-spacing="1.6" class="mono">АВТОРЫ</text>
+<text x="1036.0" y="109.0" font-size="11" fill="#8d8b85" font-weight="600" text-anchor="end" letter-spacing="1.6" class="mono">РАЗРАБОТЧИКИ</text>
 </svg>"""
     save_svg("section-team.svg", svg)
 
@@ -883,14 +883,14 @@ def make_section_team():
 def make_team_cards():
     # LilKALINOV
     lk = f"""<svg xmlns="http://www.w3.org/2000/svg" width="540" height="400" viewBox="0 0 540 400" role="img" aria-labelledby="t">
-<title id="t">LilKALINOV — Co-founder SpherePrime, Lead QA Astra. Профиль и проекты.</title>
+<title id="t">LilKALINOV — Главный разработчик SpherePrime, Full-Stack.</title>
 {COMMON_DEFS}
 <style>{COMMON_STYLE}</style>
 <rect width="540" height="400" rx="6" fill="#121211"/>
 <path d="M12 22V12H22M12 378V388H22M528 22V12H518M528 378V388H518" fill="none" stroke="#57554f" stroke-width="1.2"/>
 <path d="M28 50H512" stroke="#2d2c29"/>
 <g style="--run:428px"><rect class="register" style="animation-delay:0.00s" x="28" y="49" width="56" height="2" fill="#ff5b14"/></g>
-<text x="28.0" y="36.0" font-size="11" fill="#8d8b85" font-weight="600" letter-spacing="1.2" class="mono">01 — CO-FOUNDER · LEAD QA</text>
+<text x="28.0" y="36.0" font-size="11" fill="#8d8b85" font-weight="600" letter-spacing="1.2" class="mono">01 — ГЛАВНЫЙ РАЗРАБОТЧИК · FULL-STACK</text>
 <text x="488.0" y="36.0" font-size="11" fill="#ff5b14" font-weight="600" text-anchor="end" letter-spacing="1.2" class="mono">@LILKALINOV</text>
 <rect x=".5" y=".5" width="539" height="399" rx="6" fill="none" stroke="#2d2c29"/>
 
@@ -908,37 +908,37 @@ def make_team_cards():
 
 <!-- Name & Role -->
 <text x="28" y="106" font-size="36" fill="#ecebe5" font-weight="800" letter-spacing="-1.2">LilKALINOV<tspan fill="#ff5b14">.</tspan></text>
-<text x="28.0" y="132.0" font-size="12.5" fill="#ecebe5" font-weight="600">Со-основатель SpherePrime · Lead QA Astra</text>
-<text x="28.0" y="156.0" font-size="12" fill="#8d8b85">Архитектура, системное тестирование ИИ-агентов,</text>
-<text x="28.0" y="176.0" font-size="12" fill="#8d8b85">системные утилиты и голосовые плагины.</text>
-<text x="28.0" y="196.0" font-size="11" fill="#ff5b14" font-weight="600" class="mono">STATUS: ACTIVE ARCHITECT</text>
+<text x="28.0" y="132.0" font-size="12.5" fill="#ecebe5" font-weight="600">Главный разработчик SpherePrime · Full-Stack</text>
+<text x="28.0" y="156.0" font-size="12" fill="#8d8b85">Со-основатель и ключевой инженер экосистемы.</text>
+<text x="28.0" y="176.0" font-size="12" fill="#8d8b85">Full-Stack разработка от ядра до интерфейсов.</text>
+<text x="28.0" y="196.0" font-size="11" fill="#ff5b14" font-weight="600" class="mono">STATUS: ACTIVE FULL-STACK</text>
 
 <!-- Focus tags -->
 <rect x="28" y="222" width="484" height="106" fill="#0e0e0d" stroke="#2d2c29"/>
 <rect x="28" y="222" width="484" height="106" fill="url(#grid)"/>
 
-<text x="44.0" y="246.0" font-size="11" fill="#ff5b14" font-weight="700" class="mono">КЛЮЧЕВЫЕ ПРОЕКТЫ И ПЛАГИНЫ</text>
-<text x="44.0" y="268.0" font-size="12.5" fill="#ecebe5" class="mono">Prime Desktop · Astra-Google-STT · Astra Silero</text>
-<text x="44.0" y="290.0" font-size="12.5" fill="#ecebe5" class="mono">astra-websearch-ddg · Astra-PrimeProxy · fluxer</text>
-<text x="44.0" y="312.0" font-size="11" fill="#57554f" class="mono">Стек: Rust · Python · Go · Tauri · C/C++ · Qt</text>
+<text x="44.0" y="246.0" font-size="11" fill="#ff5b14" font-weight="700" class="mono">РОЛЬ И СПЕЦИАЛИЗАЦИЯ</text>
+<text x="44.0" y="268.0" font-size="12.5" fill="#ecebe5" class="mono">Главный разработчик · Full-Stack</text>
+<text x="44.0" y="290.0" font-size="12.5" fill="#ecebe5" class="mono">Проектирование · Бэкенд · Десктоп · Веб</text>
+<text x="44.0" y="312.0" font-size="11" fill="#57554f" class="mono">Стек: Rust · Python · Go · TypeScript · React · Tauri</text>
 
 <!-- Button -->
-<rect x="28" y="342" width="200" height="38" fill="none" stroke="#ecebe5"/>
-<text x="46.0" y="366.0" font-size="11.5" fill="#ecebe5" font-weight="600" letter-spacing="1.4" class="mono">ПРОФИЛЬ АВТОРА</text>
-<g transform="translate(208 361)"><path d="M-5 5L5 -5M-2 -5H5V2" fill="none" stroke="#ff5b14" stroke-width="1.6" stroke-linecap="square"/></g>
+<rect x="28" y="342" width="210" height="38" fill="none" stroke="#ecebe5"/>
+<text x="46.0" y="366.0" font-size="11.5" fill="#ecebe5" font-weight="600" letter-spacing="1.4" class="mono">ОТКРЫТЬ ПРОФИЛЬ</text>
+<g transform="translate(218 361)"><path d="M-5 5L5 -5M-2 -5H5V2" fill="none" stroke="#ff5b14" stroke-width="1.6" stroke-linecap="square"/></g>
 </svg>"""
     save_svg("card-lilkalinov.svg", lk)
 
     # dwertyfa
     dw = f"""<svg xmlns="http://www.w3.org/2000/svg" width="540" height="400" viewBox="0 0 540 400" role="img" aria-labelledby="t">
-<title id="t">dwertyfa — Co-founder SpherePrime, Full-stack инженер. Профиль и проекты.</title>
+<title id="t">dwertyfa — Главный разработчик SpherePrime, Full-Stack.</title>
 {COMMON_DEFS}
 <style>{COMMON_STYLE}</style>
 <rect width="540" height="400" rx="6" fill="#121211"/>
 <path d="M12 22V12H22M12 378V388H22M528 22V12H518M528 378V388H518" fill="none" stroke="#57554f" stroke-width="1.2"/>
 <path d="M28 50H512" stroke="#2d2c29"/>
 <g style="--run:428px"><rect class="register" style="animation-delay:-4.00s" x="28" y="49" width="56" height="2" fill="#ff5b14"/></g>
-<text x="28.0" y="36.0" font-size="11" fill="#8d8b85" font-weight="600" letter-spacing="1.2" class="mono">02 — CO-FOUNDER · FULL-STACK</text>
+<text x="28.0" y="36.0" font-size="11" fill="#8d8b85" font-weight="600" letter-spacing="1.2" class="mono">02 — ГЛАВНЫЙ РАЗРАБОТЧИК · FULL-STACK</text>
 <text x="488.0" y="36.0" font-size="11" fill="#ff5b14" font-weight="600" text-anchor="end" letter-spacing="1.2" class="mono">@DWERTYFA288</text>
 <rect x=".5" y=".5" width="539" height="399" rx="6" fill="none" stroke="#2d2c29"/>
 
@@ -956,24 +956,24 @@ def make_team_cards():
 
 <!-- Name & Role -->
 <text x="28" y="106" font-size="36" fill="#ecebe5" font-weight="800" letter-spacing="-1.2">dwertyfa<tspan fill="#ff5b14">.</tspan></text>
-<text x="28.0" y="132.0" font-size="12.5" fill="#ecebe5" font-weight="600">Со-основатель SpherePrime · Full-stack Инженер</text>
-<text x="28.0" y="156.0" font-size="12" fill="#8d8b85">Веб-платформы, интерактивный 3D-дизайн,</text>
-<text x="28.0" y="176.0" font-size="12" fill="#8d8b85">PrimeBoost VPN, Telegram Mini Apps и Astra.</text>
+<text x="28.0" y="132.0" font-size="12.5" fill="#ecebe5" font-weight="600">Главный разработчик SpherePrime · Full-Stack</text>
+<text x="28.0" y="156.0" font-size="12" fill="#8d8b85">Со-основатель и ключевой инженер экосистемы.</text>
+<text x="28.0" y="176.0" font-size="12" fill="#8d8b85">Full-Stack разработка от ядра до интерфейсов.</text>
 <text x="28.0" y="196.0" font-size="11" fill="#ff5b14" font-weight="600" class="mono">STATUS: ACTIVE FULL-STACK</text>
 
 <!-- Focus tags -->
 <rect x="28" y="222" width="484" height="106" fill="#0e0e0d" stroke="#2d2c29"/>
 <rect x="28" y="222" width="484" height="106" fill="url(#grid)"/>
 
-<text x="44.0" y="246.0" font-size="11" fill="#ff5b14" font-weight="700" class="mono">КЛЮЧЕВЫЕ ПРОЕКТЫ И ПРОДУКТЫ</text>
-<text x="44.0" y="268.0" font-size="12.5" fill="#ecebe5" class="mono">PrimeBoost (RoxyBoost) · dwertyfa-astra-tg</text>
-<text x="44.0" y="290.0" font-size="12.5" fill="#ecebe5" class="mono">astra-interject · Мой Дизайнер · 3D Портфолио</text>
-<text x="44.0" y="312.0" font-size="11" fill="#57554f" class="mono">Стек: Rust · Next.js · React · Three.js · Python · TS</text>
+<text x="44.0" y="246.0" font-size="11" fill="#ff5b14" font-weight="700" class="mono">РОЛЬ И СПЕЦИАЛИЗАЦИЯ</text>
+<text x="44.0" y="268.0" font-size="12.5" fill="#ecebe5" class="mono">Главный разработчик · Full-Stack</text>
+<text x="44.0" y="290.0" font-size="12.5" fill="#ecebe5" class="mono">Проектирование · Бэкенд · Десктоп · Веб</text>
+<text x="44.0" y="312.0" font-size="11" fill="#57554f" class="mono">Стек: Rust · Python · Go · TypeScript · React · Tauri</text>
 
 <!-- Button -->
-<rect x="28" y="342" width="200" height="38" fill="none" stroke="#ecebe5"/>
-<text x="46.0" y="366.0" font-size="11.5" fill="#ecebe5" font-weight="600" letter-spacing="1.4" class="mono">ПРОФИЛЬ АВТОРА</text>
-<g transform="translate(208 361)"><path d="M-5 5L5 -5M-2 -5H5V2" fill="none" stroke="#ff5b14" stroke-width="1.6" stroke-linecap="square"/></g>
+<rect x="28" y="342" width="210" height="38" fill="none" stroke="#ecebe5"/>
+<text x="46.0" y="366.0" font-size="11.5" fill="#ecebe5" font-weight="600" letter-spacing="1.4" class="mono">ОТКРЫТЬ ПРОФИЛЬ</text>
+<g transform="translate(218 361)"><path d="M-5 5L5 -5M-2 -5H5V2" fill="none" stroke="#ff5b14" stroke-width="1.6" stroke-linecap="square"/></g>
 </svg>"""
     save_svg("card-dwertyfa.svg", dw)
 
